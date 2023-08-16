@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Datos Personales</title>
+</head>
+<body style="color:white; background-color: #1d2630;">
+    <div class="container mt-5">
+        <div class="text-center">
+            <h1 class="display-5 mb-5"><strong>Tareas</strong></h1>
+        </div>
+        <div class="main row justify-content-center">
+            <form action="" id="task-form" class="row justify-content-center mb-4" autocomplete="off">
+                <div class="col-10 col-md-8 mb-3">
+                    <label for="tarea">Tarea</label>
+                    <input class="form-control" id="tarea" type="text" placeholder="Ingrese la tarea">
+                </div>
+                <div class="col-10 col-md-8 mb-3">
+                    <label for="descripcion">Descripcion</label>
+                    <input class="form-control" id="descripcion" type="text" placeholder="Ingrese la descripcion de la tarea">
+                </div>
+                <div class="col-10 col-md-8">
+                    <input class="btn btn-success add-btn" type="submit" value="Agregar">
+                </div>
+            </form>
+            <div class="col-12 col-md-10 mt-5">
+                <table class="table table-striped table-dark">
+                    <thead>
+                        <tr>
+                            <th>Tarea</th>
+                            <th>Descripcion</th>
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody id="lista-tareas">
+                        <tr>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+   
+</body>
+</html>
